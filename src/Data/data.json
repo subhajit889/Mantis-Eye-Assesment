@@ -1,0 +1,207 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Alice Anderson",
+            "designation": "Founder",
+            "email": "alice.anderson@example.com",
+            "managerId": null
+        },
+        {
+            "id": 2,
+            "name": "Bob Barker",
+            "designation": "Founder",
+            "email": "bob.barker@example.com",
+            "managerId": null
+        },
+        {
+            "id": 3,
+            "name": "Carol CEO",
+            "designation": "CEO",
+            "email": "carol.ceo@example.com",
+            "managerId": 1
+        },
+        {
+            "id": 4,
+            "name": "David HR",
+            "designation": "CHRO",
+            "email": "david.hr@example.com",
+            "managerId": 1
+        },
+        {
+            "id": 5,
+            "name": "Eric CFO",
+            "designation": "CFO",
+            "email": "eric.cfo@example.com",
+            "managerId": 1
+        },
+        {
+            "id": 6,
+            "name": "Frank Sales Mgr",
+            "designation": "Sales Manager",
+            "email": "frank.sales@example.com",
+            "managerId": 3
+        },
+        {
+            "id": 7,
+            "name": "Grace Marketing Mgr",
+            "designation": "Marketing Manager",
+            "email": "grace.marketing@example.com",
+            "managerId": 3
+        },
+        {
+            "id": 8,
+            "name": "Henry Ops Mgr",
+            "designation": "Operations Manager",
+            "email": "henry.ops@example.com",
+            "managerId": 3
+        },
+        {
+            "id": 9,
+            "name": "Irene Tech Mgr",
+            "designation": "Technology Manager",
+            "email": "irene.tech@example.com",
+            "managerId": 3
+        },
+        {
+            "id": 10,
+            "name": "Jack Sales TL",
+            "designation": "Sales Team Leader",
+            "email": "jack.sales@example.com",
+            "managerId": 6
+        },
+        {
+            "id": 11,
+            "name": "Kelly Sales TL",
+            "designation": "Sales Team Leader",
+            "email": "kelly.sales@example.com",
+            "managerId": 6
+        },
+        {
+            "id": 12,
+            "name": "Leo Mktg TL",
+            "designation": "Marketing Team Leader",
+            "email": "leo.marketing@example.com",
+            "managerId": 7
+        },
+        {
+            "id": 13,
+            "name": "Maria Mktg TL",
+            "designation": "Marketing Team Leader",
+            "email": "maria.marketing@example.com",
+            "managerId": 7
+        },
+        {
+            "id": 14,
+            "name": "Nathan Ops TL",
+            "designation": "Operations Team Leader",
+            "email": "nathan.ops@example.com",
+            "managerId": 8
+        },
+        {
+            "id": 15,
+            "name": "Olivia Ops TL",
+            "designation": "Operations Team Leader",
+            "email": "olivia.ops@example.com",
+            "managerId": 8
+        },
+        {
+            "id": 16,
+            "name": "Paul Tech TL",
+            "designation": "Technology Team Leader",
+            "email": "paul.tech@example.com",
+            "managerId": 9
+        },
+        {
+            "id": 17,
+            "name": "Quinn Tech TL",
+            "designation": "Technology Team Leader",
+            "email": "quinn.tech@example.com",
+            "managerId": 9
+        },
+        {
+            "id": 18,
+            "name": "Rachel Sales Rep",
+            "designation": "Sales Representative",
+            "email": "rachel.sales@example.com",
+            "managerId": 10
+        },
+        {
+            "id": 19,
+            "name": "Sam Sales Rep",
+            "designation": "Sales Representative",
+            "email": "sam.sales@example.com",
+            "managerId": 10
+        },
+        {
+            "id": 20,
+            "name": "Tina Sales Rep",
+            "designation": "Sales Representative",
+            "email": "tina.sales@example.com",
+            "managerId": 11
+        },
+        {
+            "id": 21,
+            "name": "Victor Sales Rep",
+            "designation": "Sales Representative",
+            "email": "victor.sales@example.com",
+            "managerId": 11
+        },
+        {
+            "id": 22,
+            "name": "Wendy Mktg Rep",
+            "designation": "Marketer",
+            "email": "wendy.marketing@example.com",
+            "managerId": 12
+        },
+        {
+            "id": 23,
+            "name": "Xavier Mktg Rep",
+            "designation": "Marketer",
+            "email": "xavier.marketing@example.com",
+            "managerId": 12
+        },
+        {
+            "id": 24,
+            "name": "Yara Ops Staff",
+            "designation": "Operations Staff",
+            "email": "yara.ops@example.com",
+            "managerId": 14
+        },
+        {
+            "id": 25,
+            "name": "Zach Ops Staff",
+            "designation": "Operations Staff",
+            "email": "zach.ops@example.com",
+            "managerId": 14
+        },
+        {
+            "id": 26,
+            "name": "Alex Tech Staff",
+            "designation": "Technology Staff",
+            "email": "alex.tech@example.com",
+            "managerId": 16
+        },
+        {
+            "id": 27,
+            "name": "Bella Tech Staff",
+            "designation": "Technology Staff",
+            "email": "bella.tech@example.com",
+            "managerId": 16
+        },
+        {
+            "id": 28,
+            "name": "Chris Tech Staff",
+            "designation": "Technology Staff",
+            "email": "chris.tech@example.com",
+            "managerId": 17
+        },
+        {
+            "id": 29,
+            "name": "Dana Tech Staff",
+            "designation": "Technology Staff",
+            "email": "dana.tech@example.com",
+            "managerId": 17
+        }
+    ]
+}
