@@ -22,7 +22,7 @@ Seperate Zoom-in and Zoom-out Button for zoom the content
 How to use:
 
 (Click on Below link to visualize live app)
-Hosting Links:- 
+Hosting Links:- https://mantis-eye-assesment-subhajit889.vercel.app/
 
 For cloneing follow below steps:
 1. Copy Command :- " git clone https://github.com/subhajit889/Mantis-Eye-Assesment.git " into tour terminal.
