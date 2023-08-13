@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+******************Organization Hierarchy Chart*********************
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This project provides a visual representation of an organization's hierarchy chart using React components. It allows you to display employee information, their positions, and the number of employees in each hierarchy level.
 
-In the project directory, you can run:
 
-### `npm start`
+UI Description:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Expanding and Collapsing Nodes:
+Click on a node's container to expand or collapse it. When a node is expanded, you will see its child nodes, if any.
+This allows you to navigate through different hierarchy levels and explore the structure of your organization. If Employee count is more tha zero then Show a massage for expansion.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Viewing Employee Details:
+When a node is collapsed, you can see basic information about the employee associated with that node, such as their name, position, and email.
+If you want to see more details about a specific employee, simply click on the node. This will expand the node and reveal more information about that employee.
+The expanded view includes the total number of employees within that hierarchy level, including the employee whose details you are viewing.
 
-### `npm test`
+3. Zoom Control :
+Seperate Zoom-in and Zoom-out Button for zoom the content
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+How to use:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+(Click on Below link to visualize live app)
+Hosting Links:- 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For cloneing follow below steps:
+1. Copy Command :- " git clone https://github.com/subhajit889/Mantis-Eye-Assesment.git " into tour terminal.
+2. Copy Command :- " cd Mantis-Eye-Assesment " into tour terminal.
+3. Copy Command :- " npm install " into tour terminal.
+4. Copy Command :- "npm start" into tour terminal.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Technology Used:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. React: A JavaScript library for building user interfaces.
+2. useState: A React Hook for managing component state.
+3. HTML: Markup language for creating the structure of the UI components.
+4. CSS: Styling language for designing the appearance of the UI components.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+********* This is a basic styling used but the app is 100% Responsive for all device ********
